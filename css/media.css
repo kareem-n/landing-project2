@@ -1,0 +1,44 @@
+@media screen and ( min-width :0px ) and (max-width:576px){
+
+    .text-center-xs{
+        text-align: center !important;
+    }
+    .gear-icon{
+        display: none !important;
+    }
+    .title{
+        width: 100% !important;
+    }
+
+}
+
+
+@media (min-width: 576px) { 
+    .title{
+        width: 100% !important;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    .title{
+        width: 100% !important;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .title{
+        width: 75% !important;
+    }
+ }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) { 
+    .container{
+        width : 1140px !important ;
+    } 
+ }

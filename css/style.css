@@ -1,0 +1,215 @@
+:root {
+  --them-color: #f25454;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.active {
+  color: var(--them-color) ;
+}
+.navbar .container .navbar-nav .social i {
+  transition: 0.2s;
+}
+.navbar .navbar-nav>li>a{
+    transition: 0.3s;
+}
+.navbar .container .navbar-nav .social i:hover {
+  color: var(--them-color) !important;
+}
+header .carousel .carousel-item img {
+  height: 100vh;
+}
+header .carousel button {
+  border: 1px solid white;
+  border-left: 0;
+  width: 45px;
+  height: 50px;
+}
+header .carousel button .layer {
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 100%;
+  transition: 0.5s;
+}
+header .carousel button:hover .layer {
+  opacity: 1;
+  right: 0;
+}
+header .carousel button i {
+  font-size: 25px;
+  z-index: 9999;
+}
+header .carousel button:hover i {
+  color: var(--them-color) !important;
+}
+.carousel-control-prev-icon {
+  color: blue;
+}
+header .carousel .carousel-item .carousel-caption h1 {
+  font-size: 3.5rem;
+}
+header .carousel .carousel-item .carousel-caption {
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fixed-left {
+  z-index: 99999;
+  background-color: #1f2528;
+  top: 25%;
+  border-left: 0;
+  padding: 10px 5px;
+}
+.faded {
+  color: gray;
+  opacity: 0.3;
+  z-index: 0;
+  font-size: 4rem;
+}
+
+.title h2::after {
+  content: "";
+  background-color: var(--them-color);
+  width: 5%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+.title:hover h2::after {
+  width: 7%;
+}
+.team .container .row .top .layer {
+  background-color: rgba(212, 74, 74,0.7);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.team .container .row .item:hover .layer {
+  opacity: 1;
+  background-color: rgba(212, 74, 74,0.7);
+}
+.team .container .row .item img {
+  width: 100%;
+  transition: 0.5s;
+}
+.team .container .row .item:hover img {
+  transform: scale(1.2, 1.2);
+}
+#contact {
+  color: white;
+  background-color: var(--them-color);
+}
+#contact:hover {
+  background-color: #d44a4a;
+}
+.services {
+  background-color: #fafafa;
+}
+.services i {
+  color: var(--them-color);
+}
+.services h5 {
+  transition: 0.3s;
+  font-weight: 500;
+}
+.services .row .item:hover h5 {
+  color: var(--them-color);
+}
+.carousel-indicators button{
+    width: 6.25rem !important ;
+    height: 6.25rem !important;
+    text-indent: 0 !important;
+}
+.touch .container .row ul li i
+{
+    color: var(--them-color);
+}
+.touch .container .row ul li h5
+{
+    transition: 0.2s;
+}
+.touch .container .row ul li:hover h5
+{
+    color: var(--them-color);
+}
+.touch .container .row ul li .icon{
+    width: 40px;
+}
+.touch .container .row ul li
+{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+}
+.footer-list
+{
+    background-image: url(../images/White_on_black_dotted_world_map_vector.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+}
+.footer-list .layer
+{
+    background-color: rgba(32, 31, 31, 0.8);
+}
+.footer-list .layer .container .row a
+{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer-list .layer .container .row a:hover{
+    color: var(--them-color);
+}
+.footer-list .layer .container .row .tags a
+{
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    margin: 9px 9px 0px 0px;
+}
+.footer-list .layer .up{
+    background-color: rgb(212, 74, 74);
+    opacity: 0.8;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.footer-list .layer .up:hover{
+    opacity: 1;
+}
+footer
+{
+    background-color: #1a1a1a ;
+}
+footer i
+{
+    transition: 0.3s;
+}
+footer i:hover
+{
+    color: var(--them-color);
+    cursor: pointer;
+}
+.review .carousel-control-prev
+{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
